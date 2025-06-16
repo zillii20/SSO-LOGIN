@@ -7,7 +7,7 @@ import { auth } from "../utils/firebase";
 function Login() {
   const navigate = useNavigate();
 
-  // useState hook to manage email input and error
+  // React hook to manage fields
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
